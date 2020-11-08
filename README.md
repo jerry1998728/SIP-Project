@@ -2,6 +2,10 @@
 
 ##Crerate a README.md in your repo with a write-up summarizing your major findings.  This should include a heading for each question you asked of your data and under each heading a short discription of what you found and relevant plots.
 
+##Project Presentation
+
+![Presentation](https://github.com/jerry1998728/SIP-Project/tree/main/Presentation)
+
 # ***SIP: We are the ...Simple.Investment.People.***
 
 ![SIP LOGO](images/SIP_logo.png)
