@@ -4,7 +4,8 @@
 
 # ***SIP: We are the ...Simple.Investment.People.***
 
-![SIP LOGO](SIP_logo.png)
+![SIP LOGO](images/SIP_logo.png)
+
 
 ## **Overview**
 ---
@@ -76,21 +77,21 @@ Furthermore, we included the following indexes to measure meaure baseline market
 
 Fist we cleaned and comdinded our data into on dataframe for anaysis.  Below are examples of what the data sets look like prior to analysis:
 >  
->![Data Cleanse](Cleaning_Merge_DF.png)
+>![Data Cleanse](images/Cleaning_Merge_DF.png)
 
 
 Next, we converted our Data to daily percent change (of stock price) to prepare for the risk analysis.
 
 >
->![Daily Percent Change](Daily_PCT_Change_DF.png)
+>![Daily Percent Change](images/Daily_PCT_Change_DF.png)
 
 We then proceeded to graph and visualize our selected stocks and indexes comulative daily returns.
 
 >***Stocks***
->![Stocks Daily Graph](Stocks_Daily.png)
+>![Stocks Daily Graph](images/Stocks_Daily.png)
 
 >***Indexes***
->![Index Daily Graph](Index_Daily.png)
+>![Index Daily Graph](images/Index_Daily.png)
 
 We then analyzed our date by completing the following analysis:
 1. 30 Day [Moving Average][3
@@ -99,7 +100,7 @@ We then analyzed our date by completing the following analysis:
 3. [Sharpe Ratios][1]
 
 >***Sharpe Ratio Comparison***
->![Sharpe Ratio Comparison](Sharpe_Ratio.png)
+>![Sharpe Ratio Comparison](images/Sharpe_Ratio.png)
 
 
 
@@ -114,5 +115,40 @@ To present this information in a digestable manner for our users, we proceed to 
 
 # *How We Predict Future Value*
 
-### ***Our Data*** 
+### ***Data Sources*** 
+
+​Our second analysis is providing a prediction of future value of our select group of investment options. We utilize the Alpaca Historical Market Infomration through their RESTful API.     
+
+In our analysis we use the following code to call the api and collect the necessary data to run our expirament:
+
+>Monte Carlo Simulation Code
+>![Monte Carlo Code](images/Simulation_Setup.png)
+
+
+We run the simulation with 500 times to predict potential outcomes based on the seed data.  Once the simulation is done we can physically analyze the infomation for each stock by reviewing the following graphs which visually represent the potnetial outcomes of the simulation:
+
+>
+>![Output of MC Simulaiton Visualized](images/Simulation_Visuals.png)
+
+Next, we review the key summary of relative data outputs.  
+
+An example is provided below:
+
+>
+>![MC Statistical Outputs](images/MC_Stats.png)
+
+
+We proceed to plot the distribution:
+
+>
+>![Distribution Plot](images/Distribution_Plot.png)
+
+This information is then collected and pulled into the dashboard providing the users with actionable insights resperesented in a visual manner.
+
+The user can interact with the graphs to analyze the output at different points in time as well as switch from one investment opiton to another.
+
+>
+>![The Interactive MC Panel](images/Prediction_Visual.png)
+
+
 
