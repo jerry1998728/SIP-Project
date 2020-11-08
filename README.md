@@ -107,7 +107,6 @@ We then analyzed our date by completing the following analysis:
 >![Sharpe Ratio Comparison](images/Sharpe_Ratio.png)
 
 
-
 To present this information in a digestable manner for our users, we proceed to pull this information into panels and created a risk tab within the user dashboard.  This will be discussed a bit later.  
 
 
@@ -153,6 +152,3 @@ The user can interact with the graphs to analyze the output at different points 
 
 >
 >![The Interactive MC Panel](images/Prediction_Visual.png)
-
-
-
