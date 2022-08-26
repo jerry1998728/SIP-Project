@@ -56,7 +56,7 @@ For more experienced investors, the SIP tool enables seasoned users to make deci
 ---
 ### ***How can we help users predict the futrue value of their investment positions from a growth perspective?***
 
-We addressed this quesiton by running monte carlos simulaiton on the seven stocks we have included in out demo software.  In our analysis we try to give a projection of gorwth by providing 5 year projected trend line into the future after running 500 instances in each simulation.  
+We addressed this quesiton by running monte carlos simulaiton on the seven stocks we have included in out demo software.  In our analysis we try to give a projection of growth by providing 5 year projected trend line into the future after running 500 instances in each simulation.  
 
 # *How We Assess Risk*
 ---
@@ -79,7 +79,7 @@ Furthermore, we included the following indexes to measure meaure baseline market
 > + Standard and Poors 500 Index (SPY)
 
 
-Fist we cleaned and comdinded our data into on dataframe for anaysis.  Below are examples of what the data sets look like prior to analysis:
+Fist, we cleaned and comdinded our data into on dataframe for anaysis; below are examples of what the data sets look like prior to analysis:
 >  
 >![Data Cleanse](https://github.com/jerry1998728/SIP-Project/blob/main/Images/Cleaning_Merge_DF.png?raw=true)
 
